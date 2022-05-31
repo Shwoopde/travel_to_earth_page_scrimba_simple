@@ -1,0 +1,93 @@
+/* reset style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    color: #333;
+    background-color: #fff;
+}
+
+.hero{
+    background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-color: purple; */
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Happy Monkey', monospace;
+    color: #fff;
+    text-shadow: 0 0 1px black;
+}
+.hero-title{
+    padding: 5px 10px;
+    font-size: 2.5em;
+    background-color: rgb(44, 44, 121);
+    border-radius: 5px;
+}
+.hero-subtitle{
+    padding: 5px 10px;
+    font-size: 1.5em;
+    background-color: rgb(195, 219, 108);
+    border-radius: 5px;
+    text-shadow: 0 0 1.5px black;
+}
+.activities-section{
+    background-color: rgb(195, 219, 108);
+    padding: 20px;
+}
+.activities-header{
+    padding: 5px 10px;
+    font-size: 1.8em;
+    text-align: center;}
+
+.activities-list{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    padding: 5px 10px;
+}
+
+.gif{
+    border-radius:25%;
+    width: 70%;
+    height: 7em;
+}
+
+.guide-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 121);
+    box-shadow: 0 10px 1px black;
+    color: #fff;
+    max-width: 500px;
+    margin: 2em auto;
+}
+.guide-pic{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid rgb(195, 219, 108);
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
